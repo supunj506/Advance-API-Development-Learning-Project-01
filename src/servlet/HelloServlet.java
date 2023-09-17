@@ -20,6 +20,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         /*System.out.println("do get method is running perfectly!!!😊😊😊😊😊😊😊😊😊😊");*/
+        /*test repo*/
         resp.getWriter().write("Customer Method Invoked");
 
     }
